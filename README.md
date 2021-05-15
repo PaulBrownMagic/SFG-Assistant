@@ -11,6 +11,18 @@ Atop of the knowledge base a variety of tools will be constructed including:
 - Square Foot Garden bed planner
 - Planting scheduler
 
+## Dependencies
+To run this application you will need these third-party libraries:
+
+- [frames](https://github.com/PaulBrownMagic/Frames)
+- [frames_persistency](https://github.com/PaulBrownMagic/FramesPersistency)
+
+You may also need to adapt the `settings.lgt` file to where you store your
+third-party libraries.
+
+Currently the application is backend agnostic, so should run with any of the
+Prolog dialects Logtalk officially supports.
+
 ## Recommended Reading:
 
 The primary source of Square Foot Gardening knowledge used in this project is:
